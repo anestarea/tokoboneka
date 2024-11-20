@@ -1,0 +1,73 @@
+/* Reset default paddings and margins */
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+/* Main container */
+.container {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #f8f9fa; /* Light gray background */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Bold brand name */
+}
+
+/* Move navigation items to the right side */
+.navbar-nav {
+  justify-content: flex-end; /* Align items to the right */
+}
+
+/* Adjust link styles */
+.nav-link {
+  color: #333; /* Darker text color */
+  margin-left: 1rem; /* Add some spacing between links */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+/*untuk tulisan home ,bout dll biar klo dipencet warna ijo*/
+.nav-link:hover {
+  color: #08a51d; /* Blue on hover */
+}
+
+/* Styling for the active link / untuk tulisan home supaya bold*/
+.nav-link.active {
+  font-weight: bold; /* Bold active link */
+}
+
+/* untuk tulisan selamat datang */
+h1 {
+  font-size: 2rem; /* Set heading size */
+  margin-bottom: 1rem; /* Add some space after heading */
+  color:rgb(10, 126, 130);
+}
+
+/* untuk tulisan dibawah selamat dtang biar wrna merah*/
+p {
+  font-size: 1.1rem; /* Adjust paragraph size */
+  color:rgb(10, 126, 130);
+}
+
+/*untuk warna setiap nav-link*/
+.navbar-nav .nav-link {
+    color: #333; /* Set the default link color */
+    text-decoration: none; /* Remove default underline */
+    padding: 10px 15px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    color: #067f6f; /* Blue text color on hover */
+}
+
+
